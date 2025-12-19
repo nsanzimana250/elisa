@@ -50,7 +50,7 @@ Email: ${formData.email}
 Message: ${formData.message}`;
 
     // Create mailto link
-    const mailtoLink = `mailto:twizerimanaeslisa430@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:twizerimanaelisa430@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     // Open email client
     window.location.href = mailtoLink;
